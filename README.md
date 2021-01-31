@@ -1,7 +1,10 @@
-### `npm run dev`
+React application created with express.js backend and MongoDB database(Atlas interface). useContext API is mained used to manage the state and actions within the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Core functions include enter your daily expense and income with notes/description. Data will be retrieved and updated from database in real-time.
 
-The page will reload if you make edits.\
-
+Steps to run the application:
+##1. Clone the repo
+##2. Setup your own account in MongoDB Atlas and paste your MONGO_URI in config/config.env file.
+##3. Install associated packages by running 'npm install' in terminal.
+##4. Run 'npm run dev' in terminal ro run the application in dev mode.
+##5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
